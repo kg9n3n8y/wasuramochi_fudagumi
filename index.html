@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>わすらもち札組み</title>
+    <link rel="manifest" href="manifest.json"/>
+    <link rel="shortcut icon" type="image/png" href="https://kg9n3n8y.github.io/wasuramochi_fudagumi/icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://kg9n3n8y.github.io/wasuramochi_fudagumi/icon.png">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+        <h1>わすらもち札組み</h1>
+        
+        <div class="group-selection">
+            <div class="group">
+                <div class="symbols">
+                    <label><input type="checkbox" name="symbol" value="ア"> ア</label>
+                    <label><input type="checkbox" name="symbol" value="イ"> イ</label>
+                    <label><input type="checkbox" name="symbol" value="ウ"> ウ</label>
+                    <label><input type="checkbox" name="symbol" value="エ"> エ</label>
+                    <label><input type="checkbox" name="symbol" value="オ"> オ</label>
+                    <label><input type="checkbox" name="symbol" value="カ"> カ</label>
+                    <label><input type="checkbox" name="symbol" value="キ"> キ</label>
+                    <label><input type="checkbox" name="symbol" value="ク"> ク</label>
+                    <label><input type="checkbox" name="symbol" value="ケ"> ケ</label>
+                    <label><input type="checkbox" name="symbol" value="コ"> コ</label>
+                </div>
+            </div>
+            
+            <div class="group">
+                <div class="symbols">
+                    <label><input type="checkbox" name="symbol" value="サ"> サ</label>
+                    <label><input type="checkbox" name="symbol" value="シ"> シ</label>
+                    <label><input type="checkbox" name="symbol" value="ス"> ス</label>
+                    <label><input type="checkbox" name="symbol" value="セ"> セ</label>
+                    <label><input type="checkbox" name="symbol" value="ソ"> ソ</label>
+                    <label><input type="checkbox" name="symbol" value="タ"> タ</label>
+                    <label><input type="checkbox" name="symbol" value="チ"> チ</label>
+                    <label><input type="checkbox" name="symbol" value="ツ"> ツ</label>
+                    <label><input type="checkbox" name="symbol" value="テ"> テ</label>
+                    <label><input type="checkbox" name="symbol" value="ト"> ト</label>
+                </div>
+            </div>
+            
+            <div class="group">
+                <div class="symbols">
+                    <label><input type="checkbox" name="symbol" value="ナ"> ナ</label>
+                    <label><input type="checkbox" name="symbol" value="ニ"> ニ</label>
+                    <label><input type="checkbox" name="symbol" value="ヌ"> ヌ</label>
+                    <label><input type="checkbox" name="symbol" value="ネ"> ネ</label>
+                    <label><input type="checkbox" name="symbol" value="ノ"> ノ</label>
+                    <label><input type="checkbox" name="symbol" value="ハ"> ハ</label>
+                    <label><input type="checkbox" name="symbol" value="ヒ"> ヒ</label>
+                    <label><input type="checkbox" name="symbol" value="フ"> フ</label>
+                    <label><input type="checkbox" name="symbol" value="ヘ"> ヘ</label>
+                    <label><input type="checkbox" name="symbol" value="ホ"> ホ</label>
+                </div>
+            </div>
+        </div>
+        
+        <div class="control-panel">
+            <p id="selection-count">選択された記号: 0/5</p>
+            <button id="decide-btn" disabled>決定</button>
+        </div>
+        
+        <div id="copy-status" class="copy-status">
+            <p id="copy-message"></p>
+        </div>
+    </div>
+    
+    <script src="fudalist.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
