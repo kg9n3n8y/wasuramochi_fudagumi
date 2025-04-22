@@ -5,6 +5,7 @@ const urlsToCache = [
   './',
   './index.html',
   './style.css',
+  './fudalist.js',
   './script.js'
 ];
 
